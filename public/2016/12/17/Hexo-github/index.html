@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Try2Know</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Hexo+github建站备忘
+建站背景昨天在百度一个python用法时进到一个个人博客里，查完用法之后突然觉得那个博客做得挺好，内容充实有用，风格简约，同时我也注意到那个博客是Hexo框架的，稍微百度了一下就发现Hexo挺有意思的，也比较适合做轻量级的博客。其中有一个hexo入门指南的文章里说道：
+“ghost目前人气最高，号称是要取代WordPress的下一代博客平台。不过问题也正在于此，它的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Try2Know">
+<meta property="og:url" content="http://try2know.com/2016/12/17/Hexo-github/index.html">
+<meta property="og:site_name" content="Try2Know">
+<meta property="og:description" content="Hexo+github建站备忘
+建站背景昨天在百度一个python用法时进到一个个人博客里，查完用法之后突然觉得那个博客做得挺好，内容充实有用，风格简约，同时我也注意到那个博客是Hexo框架的，稍微百度了一下就发现Hexo挺有意思的，也比较适合做轻量级的博客。其中有一个hexo入门指南的文章里说道：
+“ghost目前人气最高，号称是要取代WordPress的下一代博客平台。不过问题也正在于此，它的">
+<meta property="og:updated_time" content="2016-12-17T06:58:19.192Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Try2Know">
+<meta name="twitter:description" content="Hexo+github建站备忘
+建站背景昨天在百度一个python用法时进到一个个人博客里，查完用法之后突然觉得那个博客做得挺好，内容充实有用，风格简约，同时我也注意到那个博客是Hexo框架的，稍微百度了一下就发现Hexo挺有意思的，也比较适合做轻量级的博客。其中有一个hexo入门指南的文章里说道：
+“ghost目前人气最高，号称是要取代WordPress的下一代博客平台。不过问题也正在于此，它的">
+  
+    <link rel="alternate" href="/atom.xml" title="Try2Know" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Try2Know</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://try2know.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Hexo-github" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/17/Hexo-github/" class="article-date">
+  <time datetime="2016-12-17T06:58:19.192Z" itemprop="datePublished">2016-12-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Hexo-github建站备忘"><a href="#Hexo-github建站备忘" class="headerlink" title="Hexo+github建站备忘"></a>Hexo+github建站备忘</h2><hr>
+<h3 id="建站背景"><a href="#建站背景" class="headerlink" title="建站背景"></a>建站背景</h3><p>昨天在百度一个python用法时进到一个<a href="http://www.csuldw.com/" target="_blank" rel="external">个人博客</a>里，查完用法之后突然觉得那个博客做得挺好，内容充实有用，风格简约，同时我也注意到那个博客是Hexo框架的，稍微百度了一下就发现Hexo挺有意思的，也比较适合做轻量级的博客。其中有一个<a href="http://www.maintao.com/2014/hexo-beginner%27s-guide/" target="_blank" rel="external">hexo入门指南</a>的文章里说道：</p>
+<p>“ghost目前人气最高，号称是要取代WordPress的下一代博客平台。不过问题也正在于此，它的目标定位是博客平台，像WordPress一样重量级。仅用于一个独立博客，有点高射炮打蚊子的意思。最关键的一点，ghost生成的是动态网站，依赖数据库，我的直觉立刻让我放弃掉了ghost。<br>为什么我要排斥数据库？一个原因是我对纯文本有偏爱，感觉上要比二进制可控。但主要原因还是出于我的一个顾虑，说来可笑：我希望到了年老昏花的时候，这个博客依然在。<br>那时可能已经写不动了，技术上的事更折腾不了，但我希望它还能运行，能看。站在今天，无法预料那时候是什么操作系统，天知道nodeJS能不能坚持到那天，更别说ghost。唯一能确定的是，<strong>越简单、对环境依赖越少，就越有可能长命百岁。我可不想到时候发现博客打不开了，戴上花镜趴上前去一看，db connection error。</strong>“</p>
+<p>看到这段话的最后，我都没忍住笑出声了。这个作者也提到了一些用Hexo做个人博客的好处，我就不赘述了。我自己比较赞同的Hexo的一个优点是博客内容是以纯文本记录的，可以比较好的保存及迁移。</p>
+<hr>
+<h3 id="建站步骤："><a href="#建站步骤：" class="headerlink" title="建站步骤："></a>建站步骤：</h3><p>主要分为三部分：</p>
+<ul>
+<li><p>注册<a href="https://github.com/" target="_blank" rel="external">github</a>账号并建立仓库(Repsitory);</p>
+</li>
+<li><p>本地安装配置<a href="https://nodejs.org/" target="_blank" rel="external">nodejs</a>及<a href="https://hexo.io/" target="_blank" rel="external">hexo</a>（注：我的系统是linux Mint 18）;</p>
+</li>
+<li><p>注册域名并与github绑定（可选）.</p>
+</li>
+</ul>
+<p>以下为具体操作：  </p>
+<h4 id="注册github账号并建立仓库-Repsitory"><a href="#注册github账号并建立仓库-Repsitory" class="headerlink" title="注册github账号并建立仓库(Repsitory):"></a>注册<a href="https://github.com/" target="_blank" rel="external">github</a>账号并建立仓库(Repsitory):</h4><p>进入<a href="https://github.com/" target="_blank" rel="external">github</a>官网注册账号并建立以<strong>username.github.io</strong>为名的仓库（Repository),username部分必须与注册的用户名完全相同（githubzhi只为每个用户提供一个个人网站）。</p>
+<h4 id="本地安装配置nodejs及hexo"><a href="#本地安装配置nodejs及hexo" class="headerlink" title="本地安装配置nodejs及hexo:"></a>本地安装配置<a href="https://nodejs.org/" target="_blank" rel="external">nodejs</a>及<a href="https://hexo.io/" target="_blank" rel="external">hexo</a>:</h4><p><strong>安装nodejs</strong>（官网给了好几种装发，各种安装帖里也列出了多种装发，此处为我自己<a href="https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions" target="_blank" rel="external">安装成功的方法</a>）:</p>
+<pre><code>~$curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+~$sudo apt-get install -y nodejs
+</code></pre><p><strong>安装hexo:</strong></p>
+<p><strong>安装：</strong></p>
+<pre><code>~$npm install hexo-cli -g
+~$hexo init blog
+~$cd blog
+~/blog$npm install
+~/blog$hexo server
+</code></pre><p><strong>配置：</strong></p>
+<p>编辑 /blog/_config.yml文件</p>
+<ul>
+<li><p>配置网站名称等；</p>
+</li>
+<li><p>配置<strong>Deployment</strong></p>
+<pre><code>deploy:
+type: github
+repository: https://github.com/username/username.github.io.git
+branch: master
+</code></pre></li>
+</ul>
+<p>新建CNAME文件： 在<strong>/myblog/public</strong>目录下新建<strong>CNAME</strong>文件，文件内容很简单，就是自己购买好的域名。</p>
+<p><strong>发布：</strong></p>
+<p>如何写博客内容就不赘述了，主要就是用Markdown文本写好内容，放到<strong>myblog/source/_posts/</strong>文件夹下。</p>
+<p>发布博客分两步：</p>
+<ol>
+<li><p>生成静态网页：</p>
+<pre><code>~/blog$hexo g
+</code></pre></li>
+<li><p>向github推送：</p>
+<pre><code>~/blog$hexo d
+</code></pre></li>
+</ol>
+<p>此时，应该就可以通过<strong>username.github.io.git</strong>访问网站了。</p>
+<h2 id="注册域名并与github绑定（可选）"><a href="#注册域名并与github绑定（可选）" class="headerlink" title="注册域名并与github绑定（可选）"></a>注册域名并与github绑定（可选）</h2><p>如果有购买好的域名，在购买域名的网站上对域名解析添加两条<strong>CNAME</strong>记录，讲购买的域名解析到<strong>username.github.io.git</strong>.</p>
+<p>此时，应该可以通过购买的域名访问网站了。</p>
+<h3 id="DONE"><a href="#DONE" class="headerlink" title="DONE!"></a>DONE!</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://try2know.com/2016/12/17/Hexo-github/" data-id="ciwsvheo10001kcoyyxbe8dgw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/12/17/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/12/17/Hexo-github/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2016/12/17/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 Hao Chen<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
