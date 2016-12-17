@@ -15,7 +15,7 @@
 <meta property="og:description" content="Hexo+github建站备忘
 建站背景昨天在百度一个python用法时进到一个个人博客里，查完用法之后突然觉得那个博客做得挺好，内容充实有用，风格简约，同时我也注意到那个博客是Hexo框架的，稍微百度了一下就发现Hexo挺有意思的，也比较适合做轻量级的博客。其中有一个hexo入门指南的文章里说道：
 “ghost目前人气最高，号称是要取代WordPress的下一代博客平台。不过问题也正在于此，它的">
-<meta property="og:updated_time" content="2016-12-17T06:58:19.192Z">
+<meta property="og:updated_time" content="2016-12-17T07:31:59.328Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Try2Know">
 <meta name="twitter:description" content="Hexo+github建站备忘
@@ -72,7 +72,7 @@
         <section id="main"><article id="post-Hexo-github" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/12/17/Hexo-github/" class="article-date">
-  <time datetime="2016-12-17T06:58:19.192Z" itemprop="datePublished">2016-12-17</time>
+  <time datetime="2016-12-17T07:31:59.328Z" itemprop="datePublished">2016-12-17</time>
 </a>
     
   </div>
@@ -102,10 +102,11 @@
 ~$sudo apt-get install -y nodejs
 </code></pre><p><strong>安装hexo:</strong></p>
 <p><strong>安装：</strong></p>
-<pre><code>~$npm install hexo-cli -g
+<pre><code>~$sudo npm install hexo-cli -g
 ~$hexo init blog
 ~$cd blog
-~/blog$npm install
+~/blog$sudo npm install
+~/blog$sudo npm install hexo-deployer-git --save
 ~/blog$hexo server
 </code></pre><p><strong>配置：</strong></p>
 <p>编辑 /blog/_config.yml文件</p>
@@ -134,11 +135,12 @@ branch: master
 <p>此时，应该就可以通过<strong>username.github.io.git</strong>访问网站了。</p>
 <h2 id="注册域名并与github绑定（可选）"><a href="#注册域名并与github绑定（可选）" class="headerlink" title="注册域名并与github绑定（可选）"></a>注册域名并与github绑定（可选）</h2><p>如果有购买好的域名，在购买域名的网站上对域名解析添加两条<strong>CNAME</strong>记录，讲购买的域名解析到<strong>username.github.io.git</strong>.</p>
 <p>此时，应该可以通过购买的域名访问网站了。</p>
+<p>注： 如果要从不同电脑更新博客，可参见<a href="http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more" target="_blank" rel="external">另一种做法</a>.不过我在实践是遇到了几个问题，一是<strong>npm install hexo-deployer-git</strong>应该为<strong>sudo npm install hexo-deployer-git –save</strong>,不然在<strong>hexo d</strong>的时候会出现无法找到<strong>git</strong>的情况；二是执行完<strong>4.2.5</strong>之后<strong>.git</strong>就会消失，我采取的办法是在别的地方克隆仓库，再把<strong>.git</strong>拷贝进来。后来才发现原作者说最开始克隆完仓库就是拷贝一份再进行后面的操作。</p>
 <h3 id="DONE"><a href="#DONE" class="headerlink" title="DONE!"></a>DONE!</h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://try2know.com/2016/12/17/Hexo-github/" data-id="ciwsvvt5q0001xioy3myeb5th" class="article-share-link">Share</a>
+      <a data-url="http://try2know.com/2016/12/17/Hexo-github/" data-id="ciwswoq790000gdoyvfbnswgh" class="article-share-link">Share</a>
       
       
     </footer>
